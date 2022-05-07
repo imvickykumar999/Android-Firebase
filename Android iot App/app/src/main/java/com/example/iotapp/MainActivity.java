@@ -40,7 +40,6 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     private Button onbutton, offbutton;
-
     boolean isSwitchOn = false;
 
     @SuppressLint("ClickableViewAccessibility")

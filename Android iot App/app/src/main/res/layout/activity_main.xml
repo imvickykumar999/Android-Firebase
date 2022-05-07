@@ -4,32 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/diwali"
+    android:background="@drawable/esp32"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/onbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Led On"
+        android:text="Turn On"
+        android:textSize="20sp"
+        android:background="#DD0CE614"
+        android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintHorizontal_bias="0.291"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.783" />
+        app:layout_constraintVertical_bias="0.853" />
 
     <Button
         android:id="@+id/offbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Led Off"
+        android:text="Turn Off"
+        android:textSize="20sp"
+        android:background="#C3F30606"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintHorizontal_bias="0.795"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.783" />
+        app:layout_constraintVertical_bias="0.853" />
 
     <TextView
         android:id="@+id/textView"
@@ -37,13 +43,14 @@
         android:layout_height="85dp"
         android:autoLink="web"
         android:gravity="center"
-        android:text="Check out this project on GitHub... https://github.com/imvickykumar999/Android-Firebase"
-        android:textColor="#FFEB3B"
+        android:text="https://github.com/imvickykumar999/Final-Year-Project"
+        android:textColor="#F60202"
+        android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/onbtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.573"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.083" />
+        app:layout_constraintVertical_bias="0.592" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
