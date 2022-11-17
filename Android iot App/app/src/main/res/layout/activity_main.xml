@@ -44,7 +44,7 @@
         android:layout_height="85dp"
         android:autoLink="web"
         android:gravity="center"
-        android:text="https://github.com/imvickykumar999/Final-Year-Project"
+        android:text="https://github.com/imvickykumar999/Play-Store-Developer-Account"
         android:textColor="#F60202"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/onbtn"

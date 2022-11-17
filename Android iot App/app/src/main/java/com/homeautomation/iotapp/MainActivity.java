@@ -3,7 +3,7 @@
 
 //https://console.firebase.google.com/u/0/project/home-automation-336c0/settings/general/android:com.example.iotapp
 
-package com.example.iotapp;
+package com.homeautomation.iotapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,7 +27,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.iotapp.R;
+import com.homeautomation.iotapp.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

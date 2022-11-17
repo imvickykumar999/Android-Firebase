@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:400377133938:android:948dad1f9dd1c3fd7afbeb",
         "android_client_info": {
-          "package_name": "com.example.iotapp"
+          "package_name": "com.homeautomation.iotapp"
         }
       },
       "oauth_client": [
