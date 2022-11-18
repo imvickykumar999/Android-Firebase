@@ -9,15 +9,15 @@ android {
         applicationId "com.homeautomation.iotapp"
         minSdkVersion 23
         targetSdkVersion 31
-        versionCode 3
-        versionName "1.1"
+        versionCode 4
+        versionName "1.4"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             debuggable false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
